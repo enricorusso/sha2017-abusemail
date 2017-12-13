@@ -69,14 +69,16 @@ pkts = rdpcap(f)
 
 chunks = {}
 i = 0
+fname = ""
 
 def save_chunks():
-    global chunks, i
+    global chunks, i, fname
+    print("save " + fname)
     result = ''
     for x in sorted(chunks.keys()):
         result += chunks[x]
     b = base64.urlsafe_b64decode(result)
-    open('pippero'+str(i)+'.pcap', 'wb').write(b)
+    open(fname, 'wb').write(b)
     chunks = {}
 
 for packet in pkts:
@@ -84,12 +86,19 @@ for packet in pkts:
     if input[0:len(magic)] == magic:
         input = input.split(":")
         data = cipher.decrypt(input[1]).split(":")
-#		print("cmd = ", data[0])
-#        if data[0]=='getfile':
-#            if len(data)>=3:
-#                chunks[int(data[1])] = data[2]
-#            else:
-#                i += 1
-#                if i:
-#                    save_chunks()
+        if data[0]=='command':
+            print(data[1])
+        if data[0]=='getfile':
+            if len(data)>=3:
+                #print("2: " + data[2])
+                chunks[int(data[1])] = data[2]
+            else:
+                i += 1
+                if i == 3:
+                    print("save array: " + str(len(chunks)))
+                    fname = "file1.pcap"
+                    save_chunks()
+                    i=0
+print("save array: " + str(len(chunks)))
+fname = "file2.pcap"
 save_chunks()

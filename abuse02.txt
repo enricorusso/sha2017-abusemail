@@ -1,0 +1,220 @@
+ls -la
+ls -la
+total 16
+drwxr-xr-x 3 root     root     4096 Jul 26 09
+total 16
+drwxr-xr-x 3 root     root     4096 Jul 26 09
+id
+id
+uid=0(root) gid=0(root) groups=0(root)
+
+uid=0(root) gid=0(root) groups=0(root)
+
+id
+id
+uid=0(root) gid=0(root) groups=0(root)
+
+uid=0(root) gid=0(root) groups=0(root)
+
+id
+id
+uid=0(root) gid=0(root) groups=0(root)
+
+uid=0(root) gid=0(root) groups=0(root)
+
+ls -la /root
+ls -la /root
+total 32
+drwx------  5 root root 4096 Jul 27 07
+total 32
+drwx------  5 root root 4096 Jul 27 07
+ls -la /root/certs
+ls -la /root/certs
+total 16
+drwxr-xr-x 2 root root 4096 Jul 27 09
+total 16
+drwxr-xr-x 2 root root 4096 Jul 27 09
+cat /root/certs/intranet.crt
+cat /root/certs/intranet.crt
+-----BEGIN CERTIFICATE-----
+MIICrDCCAhWgAwIBAgIJALfe3aETCSTsMA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNV
+BAYTAk5MMRIwEAYDVQQIDAlGbGV2b2xhbmQxETAPBgNVBAcMCFplZXdvbGRlMRQw
+EgYDVQQKDAtTSEEyMDE3IENURjEjMCEGCSqGSIb3DQEJARYUc2hhMjAxN2N0ZkBn
+bWFpbC5jb20wHhcNMTcwNzI3MTQyMzIwWhcNMTgwNzI3MTQyMzIwWjBvMQswCQYD
+VQQGEwJOTDESMBAGA1UECAwJRmxldm9sYW5kMREwDwYDVQQHDAhaZWV3b2xkZTEU
+MBIGA1UECgwLU0hBMjAxNyBDVEYxIzAhBgkqhkiG9w0BCQEWFHNoYTIwMTdjdGZA
+Z21haWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+H/mwETvdjGRn
+n/33zsjMOyPsg5xgSCsLDTg9D8XaeGp7ZQ1habE+9G0gabrKYntVburjitcuheXK
+hCo6nYWF2pSch4WjhNhCxkM++UeKRUv8xYAtSGl+6vvSrwogR+BfRuxZFAeJzvgK
+hNwL7sdW2CJ7Gk89pET/W6AOBNcDWwIDAQABo1AwTjAdBgNVHQ4EFgQUFeykHO7M
+V70l0IO87/3ogRb5VxMwHwYDVR0jBBgwFoAUFeykHO7MV70l0IO87/3ogRb5VxMw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCITumB4q5A+Lu9EzUe1qAW
+rjAeVfXq/qVrw+byH4VqNuEOBQ7lq151VbsXI1YQXCxVbP/r5Zxb1BfS/3qHHFDu
+SRqYaxh9c+BRkdAdzkFebMbIocnaLuVFpn237Z/ysSt0PPrTaI3gUSoz/7gXB+nX
+DkYKgl7BR0a72yTuLAc0GA==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIICrDCCAhWgAwIBAgIJALfe3aETCSTsMA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNV
+BAYTAk5MMRIwEAYDVQQIDAlGbGV2b2xhbmQxETAPBgNVBAcMCFplZXdvbGRlMRQw
+EgYDVQQKDAtTSEEyMDE3IENURjEjMCEGCSqGSIb3DQEJARYUc2hhMjAxN2N0ZkBn
+bWFpbC5jb20wHhcNMTcwNzI3MTQyMzIwWhcNMTgwNzI3MTQyMzIwWjBvMQswCQYD
+VQQGEwJOTDESMBAGA1UECAwJRmxldm9sYW5kMREwDwYDVQQHDAhaZWV3b2xkZTEU
+MBIGA1UECgwLU0hBMjAxNyBDVEYxIzAhBgkqhkiG9w0BCQEWFHNoYTIwMTdjdGZA
+Z21haWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+H/mwETvdjGRn
+n/33zsjMOyPsg5xgSCsLDTg9D8XaeGp7ZQ1habE+9G0gabrKYntVburjitcuheXK
+hCo6nYWF2pSch4WjhNhCxkM++UeKRUv8xYAtSGl+6vvSrwogR+BfRuxZFAeJzvgK
+hNwL7sdW2CJ7Gk89pET/W6AOBNcDWwIDAQABo1AwTjAdBgNVHQ4EFgQUFeykHO7M
+V70l0IO87/3ogRb5VxMwHwYDVR0jBBgwFoAUFeykHO7MV70l0IO87/3ogRb5VxMw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQCITumB4q5A+Lu9EzUe1qAW
+rjAeVfXq/qVrw+byH4VqNuEOBQ7lq151VbsXI1YQXCxVbP/r5Zxb1BfS/3qHHFDu
+SRqYaxh9c+BRkdAdzkFebMbIocnaLuVFpn237Z/ysSt0PPrTaI3gUSoz/7gXB+nX
+DkYKgl7BR0a72yTuLAc0GA==
+-----END CERTIFICATE-----
+
+cat /root/certs/intranet.key
+cat /root/certs/intranet.key
+-----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL4f+bARO92MZGef
+/ffOyMw7I+yDnGBIKwsNOD0Pxdp4antlDWFpsT70bSBpuspie1Vu6uOK1y6F5cqE
+KjqdhYXalJyHhaOE2ELGQz75R4pFS/zFgC1IaX7q+9KvCiBH4F9G7FkUB4nO+AqE
+3Avux1bYInsaTz2kRP9boA4E1wNbAgMBAAECgYEAiYU/aedNUhc2mO3VGeXswC0W
+8wDPn6UT3U6WmzRJfJkVDGQvpYJ5vnu2Y3eWsMVDSKyOIkBPHUukxzOKCBPge449
+kMwW8cX0nHSGFl1HsYiY14Lr/BiOXz/c+I9Yg+Bexf5kCTYAjzqZ1ZErrIQvagNE
+pXb1GGZrnrU7wH9FI8ECQQDhwEnscmqsnPr43E0eFUy3OybfQfo+mSRdq84zwHoW
+BofTUUOpDZpZhIWt6JsdsSqqYVt+W8XHqILraK/EQDnpAkEA15mi7tjozljGcjVP
+dYzB4m24vRK4guujNSJDXKwoDvjDI8x3iu/iTtfxkM3Swko4bxWwiUB7MOaCLgQO
+HaaEowJAXIzswZcWzLV+3s/SfebVkLkbcqQl58v48L4ix2y9oJIE1UmXp5MAGHsQ
+IwAdt8qOZ1OKov8U0onvQnuks5xxIQJBAMwBz5/MVfYzIIwfD7H+X9Pe2Ojn1vni
++IslgbImIL2R/CxapF8uf+j1AtpvN9eqnV3XmzU0c50g8NuT8LtzvpsCQGUArCoa
+ps7xk/SxGfz3IBrsUIOn3Iqh9wqoLfu7wVuc+LFIwkrNm6D5ZnzUapvO2oqj+5ER
+iuSWkHY6ll1V1m0=
+-----END PRIVATE KEY-----
+
+-----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL4f+bARO92MZGef
+/ffOyMw7I+yDnGBIKwsNOD0Pxdp4antlDWFpsT70bSBpuspie1Vu6uOK1y6F5cqE
+KjqdhYXalJyHhaOE2ELGQz75R4pFS/zFgC1IaX7q+9KvCiBH4F9G7FkUB4nO+AqE
+3Avux1bYInsaTz2kRP9boA4E1wNbAgMBAAECgYEAiYU/aedNUhc2mO3VGeXswC0W
+8wDPn6UT3U6WmzRJfJkVDGQvpYJ5vnu2Y3eWsMVDSKyOIkBPHUukxzOKCBPge449
+kMwW8cX0nHSGFl1HsYiY14Lr/BiOXz/c+I9Yg+Bexf5kCTYAjzqZ1ZErrIQvagNE
+pXb1GGZrnrU7wH9FI8ECQQDhwEnscmqsnPr43E0eFUy3OybfQfo+mSRdq84zwHoW
+BofTUUOpDZpZhIWt6JsdsSqqYVt+W8XHqILraK/EQDnpAkEA15mi7tjozljGcjVP
+dYzB4m24vRK4guujNSJDXKwoDvjDI8x3iu/iTtfxkM3Swko4bxWwiUB7MOaCLgQO
+HaaEowJAXIzswZcWzLV+3s/SfebVkLkbcqQl58v48L4ix2y9oJIE1UmXp5MAGHsQ
+IwAdt8qOZ1OKov8U0onvQnuks5xxIQJBAMwBz5/MVfYzIIwfD7H+X9Pe2Ojn1vni
++IslgbImIL2R/CxapF8uf+j1AtpvN9eqnV3XmzU0c50g8NuT8LtzvpsCQGUArCoa
+ps7xk/SxGfz3IBrsUIOn3Iqh9wqoLfu7wVuc+LFIwkrNm6D5ZnzUapvO2oqj+5ER
+iuSWkHY6ll1V1m0=
+-----END PRIVATE KEY-----
+
+cat /root/certs/intranet.key
+cat /root/certs/intranet.key
+-----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL4f+bARO92MZGef
+/ffOyMw7I+yDnGBIKwsNOD0Pxdp4antlDWFpsT70bSBpuspie1Vu6uOK1y6F5cqE
+KjqdhYXalJyHhaOE2ELGQz75R4pFS/zFgC1IaX7q+9KvCiBH4F9G7FkUB4nO+AqE
+3Avux1bYInsaTz2kRP9boA4E1wNbAgMBAAECgYEAiYU/aedNUhc2mO3VGeXswC0W
+8wDPn6UT3U6WmzRJfJkVDGQvpYJ5vnu2Y3eWsMVDSKyOIkBPHUukxzOKCBPge449
+kMwW8cX0nHSGFl1HsYiY14Lr/BiOXz/c+I9Yg+Bexf5kCTYAjzqZ1ZErrIQvagNE
+pXb1GGZrnrU7wH9FI8ECQQDhwEnscmqsnPr43E0eFUy3OybfQfo+mSRdq84zwHoW
+BofTUUOpDZpZhIWt6JsdsSqqYVt+W8XHqILraK/EQDnpAkEA15mi7tjozljGcjVP
+dYzB4m24vRK4guujNSJDXKwoDvjDI8x3iu/iTtfxkM3Swko4bxWwiUB7MOaCLgQO
+HaaEowJAXIzswZcWzLV+3s/SfebVkLkbcqQl58v48L4ix2y9oJIE1UmXp5MAGHsQ
+IwAdt8qOZ1OKov8U0onvQnuks5xxIQJBAMwBz5/MVfYzIIwfD7H+X9Pe2Ojn1vni
++IslgbImIL2R/CxapF8uf+j1AtpvN9eqnV3XmzU0c50g8NuT8LtzvpsCQGUArCoa
+ps7xk/SxGfz3IBrsUIOn3Iqh9wqoLfu7wVuc+LFIwkrNm6D5ZnzUapvO2oqj+5ER
+iuSWkHY6ll1V1m0=
+-----END PRIVATE KEY-----
+
+-----BEGIN PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL4f+bARO92MZGef
+/ffOyMw7I+yDnGBIKwsNOD0Pxdp4antlDWFpsT70bSBpuspie1Vu6uOK1y6F5cqE
+KjqdhYXalJyHhaOE2ELGQz75R4pFS/zFgC1IaX7q+9KvCiBH4F9G7FkUB4nO+AqE
+3Avux1bYInsaTz2kRP9boA4E1wNbAgMBAAECgYEAiYU/aedNUhc2mO3VGeXswC0W
+8wDPn6UT3U6WmzRJfJkVDGQvpYJ5vnu2Y3eWsMVDSKyOIkBPHUukxzOKCBPge449
+kMwW8cX0nHSGFl1HsYiY14Lr/BiOXz/c+I9Yg+Bexf5kCTYAjzqZ1ZErrIQvagNE
+pXb1GGZrnrU7wH9FI8ECQQDhwEnscmqsnPr43E0eFUy3OybfQfo+mSRdq84zwHoW
+BofTUUOpDZpZhIWt6JsdsSqqYVt+W8XHqILraK/EQDnpAkEA15mi7tjozljGcjVP
+dYzB4m24vRK4guujNSJDXKwoDvjDI8x3iu/iTtfxkM3Swko4bxWwiUB7MOaCLgQO
+HaaEowJAXIzswZcWzLV+3s/SfebVkLkbcqQl58v48L4ix2y9oJIE1UmXp5MAGHsQ
+IwAdt8qOZ1OKov8U0onvQnuks5xxIQJBAMwBz5/MVfYzIIwfD7H+X9Pe2Ojn1vni
++IslgbImIL2R/CxapF8uf+j1AtpvN9eqnV3XmzU0c50g8NuT8LtzvpsCQGUArCoa
+ps7xk/SxGfz3IBrsUIOn3Iqh9wqoLfu7wVuc+LFIwkrNm6D5ZnzUapvO2oqj+5ER
+iuSWkHY6ll1V1m0=
+-----END PRIVATE KEY-----
+
+cat /etc/hosts
+cat /etc/hosts
+127.0.0.1	localhost
+127.0.1.1	ubuntu
+
+# The following lines are desirable for IPv6 capable hosts
+
+127.0.0.1	localhost
+127.0.1.1	ubuntu
+
+# The following lines are desirable for IPv6 capable hosts
+
+nohup nmap intranet > /tmp/intranet.nmap
+nohup nmap intranet > /tmp/intranet.nmap
+
+
+cat /tmp/intranet.nmap
+cat /tmp/intranet.nmap
+
+Starting Nmap 7.01 ( https
+
+Starting Nmap 7.01 ( https
+cat /tmp/intranet.nmap
+cat /tmp/intranet.nmap
+
+Starting Nmap 7.01 ( https
+
+Starting Nmap 7.01 ( https
+cat /tmp/intranet.nmap
+cat /tmp/intranet.nmap
+
+Starting Nmap 7.01 ( https
+
+Starting Nmap 7.01 ( https
+cat /tmp/intranet.nmap
+cat /tmp/intranet.nmap
+
+Starting Nmap 7.01 ( https
+
+Starting Nmap 7.01 ( https
+curl -k https
+curl -k https
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --
+tcpdump -D
+tcpdump -D
+1.ens33 [Up, Running]
+2.ens39 [Up, Running]
+3.any (Pseudo-device that captures on all interfaces) [Up, Running]
+4.lo [Up, Running, Loopback]
+5.nflog (Linux netfilter log (NFLOG) interface)
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface)
+7.usbmon1 (USB bus number 1)
+8.usbmon2 (USB bus number 2)
+
+1.ens33 [Up, Running]
+2.ens39 [Up, Running]
+3.any (Pseudo-device that captures on all interfaces) [Up, Running]
+4.lo [Up, Running, Loopback]
+5.nflog (Linux netfilter log (NFLOG) interface)
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface)
+7.usbmon1 (USB bus number 1)
+8.usbmon2 (USB bus number 2)
+
+tcpdump -i usbmon2 -w /tmp/usb.pcap
+tcpdump -i usbmon2 -w /tmp/usb.pcap
+tcpdump host intranet -w /tmp/intranet.pcap
+tcpdump host intranet -w /tmp/intranet.pcap
+save array: 0
+save file2.pcap
